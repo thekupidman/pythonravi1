@@ -31,7 +31,7 @@ class Main(QDialog):
             x = float(self.lineEdit_x.text())
             c = float(self.lineEdit_c.text())
             d = float(self.lineEdit_d.text())
-            if x >= 5:
+            if x <= 5:
                 answer = ((a ** 2) * c) + ((b ** 2) - d ) / x
             else:
                 answer = (x ** 2) + 5
